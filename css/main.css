@@ -36,21 +36,24 @@ h1 {
 }
 
 nav ul {
-  margin: .3rem;
-  padding: .4rem 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 nav li {
-  display: inline-block;
+  float: left;
+  width: 33.33%;
 }
 
 nav a {
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  margin: .3rem;
+  padding: .4rem 0;
   color: white;
   text-decoration: none;
   font-size: 1.125rem;
+  border: 1px solid #a63f38;
 }
 
 nav a:hover {
