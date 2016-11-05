@@ -21,11 +21,13 @@ header {
 .left {
   float: left;
   width: 40px;
+  max-width: 100%;
 }
 
 .right {
   float: right;
   width: 40px;
+  max-width: 100%;
 }
 
 h1 {
