@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
-  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -10,12 +9,8 @@ html {
 
 body {
   margin: 0;
-}
-
-header {
-  background-color: #d05c2e;
-  padding: .5em 0 0;
-  margin: 0 0 .7rem;
+  padding: 0;
+  background-color: #fff;
 }
 
 .left {
@@ -30,17 +25,25 @@ header {
   max-width: 100%;
 }
 
+.grains {
+  background-color: #d05c2e;
+  padding: .5em 0 0;
+  padding-bottom: 0;
+}
+
 h1 {
   font-size: 2rem;
   color: white;
   font-weight: bold;
   text-align: center;
+  margin-top: .3rem;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  overflow: hidden;
 }
 
 nav li {
