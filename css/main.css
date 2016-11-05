@@ -51,14 +51,18 @@ nav li {
   width: 33.33%;
 }
 
-nav a {
-  display: inline-block;
-  margin: .3rem;
+li a {
   padding: .4rem 0;
+  padding-bottom: .3rem;
+}
+
+nav a {
+  display: block;
   color: white;
   text-decoration: none;
   font-size: 1.125rem;
   border: 1px solid #a63f38;
+  text-align: center;
 }
 
 nav a:hover {
