@@ -18,7 +18,13 @@ header {
   margin: 0 0 .7rem;
 }
 
-img {
+.left {
+  float: left;
+  width: 40px;
+}
+
+.right {
+  float: right;
   width: 40px;
 }
 
@@ -45,5 +51,8 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 1.125rem;
+}
 
+nav a:hover {
+  background-color: #a63f38;
 }
