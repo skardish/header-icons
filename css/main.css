@@ -1,8 +1,49 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  padding: .5em 0 0;
+  margin: 0 0 .7rem;
+}
+
+img {
+  width: 40px;
+}
+
+h1 {
+font-size: 2rem;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+nav ul {
+  margin: .3rem;
+  padding: .4rem 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
+
 }
